@@ -12,16 +12,6 @@
     -> 1
 '''
 
-#n = int(input("введите размер массива: "))
-#numbers = []
-#for i in range(n):
-#     a = int(input("введите число: "))
-#     numbers.append(a)
-#print(numbers)
-#num = int(input("введите ваше число: "))
-#print(f"ваше число повторяется {numbers.count(num)} раз")
-
-
 from random import randint
 n = int(input("введите число: "))
 numbers = []
