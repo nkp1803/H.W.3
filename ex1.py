@@ -13,11 +13,11 @@
 '''
 
 from random import randint
-n = int(input("введите число: "))
-numbers = []
-for i in range(n):
-     a = randint(0,10)
-     numbers.append(a)
-print(numbers)
+n = int(input("введите число: ")) 
+numbers = []                      
+for i in range(n):                
+     a = randint(0,10)            
+     numbers.append(a)            
+print(numbers)                    
 num = int(input("введите число X: "))
 print(f" Число X повторяется : {numbers.count(num)} раз")
